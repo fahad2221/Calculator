@@ -14,6 +14,10 @@
     padding-right: 15px;
 }
 
+.keypad{
+    height: 80%;
+}
+
 .view-key{
     color: aliceblue;
     text-align: end;
@@ -40,6 +44,10 @@
 
 .numberSquare:hover{
     opacity: 80%;
+    cursor: pointer;
+}
+.numberSquare:active{
+    background-color: #bbbcbe;
 }
 
 .big{
@@ -54,6 +62,11 @@
 .topKey{
     border-bottom: 2px solid black;
     background-color: orange;
+    color: white;
+}
+
+.topKey:active{
+    background-color: #dd8d37;
 }
 
 .botRow{
@@ -64,4 +77,9 @@
 .minus{
     background-color: orange;
     border-right: none;
+    color: white;
+}
+.minus:active{
+    background-color: #dd8d37;
+
 }
